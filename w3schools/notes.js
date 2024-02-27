@@ -38,14 +38,17 @@
 // topic_05: Colors
 /**
  * 01. Colors are specified using predefined names, HEX, HSL, HSLA, RGB, RGBA.
- * i. RGB: Red, Green, Blue light sources. rgb(red,blue,green). each parameter defines the intensity of the color between 0 to 255.
+ *      i. RGB: Red, Green, Blue light sources. rgb(red,blue,green). each parameter defines the intensity of the color between 0 to 255.
  *          - rgb(255,0,0) : red
  *          - rgb(0,255,0) : green
  *          - rgb(0,0,255) : blue
  *          - rgb(0,0,0) : black
  *          - rgb(255,255,255) : white
- * ii. RGBA: Red, Green, Blue and alpha. Alpha parameter is a number between 0.0(fully transparent) to 1.0(not transparent).
+ *      ii. RGBA: Red, Green, Blue and alpha. Alpha parameter is a number between 0.0(fully transparent) to 1.0(not transparent).
  * 
- * iii. HEX : hexadecimal color is specified with #RRGGBB where RR is red, GG is green and BB is blue. The values are between 00 and ff. The 3-digit hex code is a shorthand for 6-digit hex codes. If we have #ff00cc, we can write #f0c. 
+ *      iii. HEX : hexadecimal color is specified with #RRGGBB where RR is red, GG is green and BB is blue. The values are between 00 and ff. The 3-digit hex code is a shorthand for 6-digit hex codes. If we have #ff00cc, we can write #f0c. 
+ *      iv. HSL: stands for Hue, Saturation, Lightness. hsl(hue,saturation, lightness). Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, 240 is blue. Saturation is a percentage value. 0% means a shade of gray, and 100% means is the full color. Lightness is also a percentage. 0% is black, 50% is either light or dark, 100% is white.
+ * 
+ *      v. HSLA: an extension of HSL color values with an alpha channel which specifies the opacity for a color.
  * 
  */
