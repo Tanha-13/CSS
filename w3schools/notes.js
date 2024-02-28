@@ -76,8 +76,26 @@
  * 9. background-size
  * 
  * imp: shorthand property: background(sets all the background properties in one declaration) - background-color background-image background-repeat background-attachment background-position
+ */
+
+// topic_07: Border
+/**
+ * 01. border-style: specifies what kind of border to display. It can take up to four values: top, right, bottom, left
+ *          i.dotted         ii. dashed
+ *          iii. solid       iv. double
+ *          v. groove        vi. ridge
+ *          vii. inset       viii. outset
+ *          ix. none         x. hidden
  * 
+ * 02. border-width: specifies the width of the four borders. It can take specific size(px,pt,cm,em) or have pre-defined values: thin,medium, thick. It can have one to four values.
  * 
+ * 3. border-color: is used to set the color of the four borders. Color names can be set by name,HEX,HSL,HSLA,RGB,RGBA,transparent. If border color is not set, it inherits the color of the element. It can have from one to four values.
+ * 
+ * 4. border-top-style, border-right-style, border-bottom-style, border-left-style. border-left, border-right, border-bottom, border-top. 
+ * 
+ * 5. border-radius: is used to add rounded borders to an element.
+ * 
+ * imp: shorthand border property - border-width border-style(required) border-color.
  * 
  * 
  */
