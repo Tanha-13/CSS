@@ -96,6 +96,32 @@
  * 5. border-radius: is used to add rounded borders to an element.
  * 
  * imp: shorthand border property - border-width border-style(required) border-color.
+ */
+//topic_08: width, max-width, height max-height
+/**
+ * width and height properties are used to set the width and height of an element.
+ *      i. auto - this is default. The browser calculates the height and width.
+ *      ii. length - defines in px,cm etc.
+ *      iii. % - defines in percent of the containing block.
+ *      iv. initial - 
+ *      v. inherit - inherited from its parent value.
+ * max-width property is used to set the maximum width of an element that an element can have.
  * 
+ * imp: If the width of an element is set to 300px or any specific value, the element will always be that width regardless of the size of its container or viewport.
+ * 
+ * imp: If the max-width of an element is set to any specific range, that means the element's width can be anything up to the specified value but it will not exceed it. If the container or viewport is smaller that the specified max-width, the element will shrink to fit.
+ * 
+ * 
+ * 
+ * 
+ * 
+ * 
+ */
+
+//topic_09: Box Model
+/**
+ * Box model is essentially a box that wraps around every HTML element. It consists of content, padding, border, margin.
+ * 01. content: the content of teh box, text or images.
+ * 02. padding: Padding property is used to create space about an element's content. CSS has properties for specifying the padding for each side of an element: padding-top, padding-right, padding-bottom, padding-left. Negative values are not allowed.
  * 
  */
