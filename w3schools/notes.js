@@ -52,3 +52,32 @@
  *      v. HSLA: an extension of HSL color values with an alpha channel which specifies the opacity for a color.
  * 
  */
+
+//topic_06: Background
+/**
+ * background properties are used to add background effects for element.
+ * 1. background-color: this property specifies the background color of a element.
+ * 2. opacity: this property specifies the transparency/opacity of an element.
+ * problem: when using the opacity property, all of its child elements inherit the same transparency. 
+ * solution: use RGBA color values to avoid this problem.
+ * 
+ * 3. background-image: specifies an image to use as the background of an element. By default, it is repeated and covers the entire element. When using a background image, use an image that does not disturb the text.
+ * 
+ * 4. background-repeat:sets how a background image will be repeated. It controls the repetition of an image as a background of a element. The values
+ *      i. repeat: repeat the image either horizontally or vertically.
+ *      ii. no-repeat: do not repeat the image.
+ *      iii. repeat-x: repeats the image horizontally.
+ *      iv. repeat-y: repeats the image vertically.
+ * 5. background-position: is used to specify the position of the background image. It sets the starting position of a background.
+ * 
+ * 6. background-attachment: specifies whether the background image should scroll or be fixed.
+ * 7. background-clip: 
+ * 8. background-origin:
+ * 9. background-size
+ * 
+ * imp: shorthand property: background(sets all the background properties in one declaration) - background-color background-image background-repeat background-attachment background-position
+ * 
+ * 
+ * 
+ * 
+ */
