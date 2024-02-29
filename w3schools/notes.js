@@ -147,5 +147,23 @@
  * 4. vertical-align: sets the vertical alignment of an element. baseline, text-top, text-bottom, sub, super.
  * 5. direction: sets the text direction. rtl(right to left), ltr(left to right), initial, inherit.
  * 
+ * DECORATION
+ * 1. text-decoration-line: is used to add a decoration line to text.
+ *      i. overline
+ *      ii. underline
+ *      iii. line-through
+ *      iv. none
+ * 2. text-decoration-color: is used to set the color of the decoration line.
+ * 3. text-decoration-thickness: set the thickness of the decoration line.
+ * imp: shorthand - text-decoration: text-decoration-line(required),text-decoration-color, text-decoration-style, text-decoration-thickness.
+ * 4. text-transform: controls the capitalization of a text. uppercase, lowercase, capitalize.
+ * 5. text-indent: is used to specify the indentation of the first line of a text.
+ * 6. letter-spacing: specify the space between the characters in a text.
+ * 7. line-height: is used to define the space between lines.
+ * 8. word-spacing: specify the space between the words in a text.
+ * 9. white-space: specifies how white-space inside an element is handled. 
+ * 10. text-shadow: adds shadow to text. 
+ *
+ * 
  * 
  */
