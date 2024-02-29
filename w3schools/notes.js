@@ -122,6 +122,18 @@
 /**
  * Box model is essentially a box that wraps around every HTML element. It consists of content, padding, border, margin.
  * 01. content: the content of teh box, text or images.
- * 02. padding: Padding property is used to create space about an element's content. CSS has properties for specifying the padding for each side of an element: padding-top, padding-right, padding-bottom, padding-left. Negative values are not allowed.
+ * 02. padding: Padding property is used to create space about an element's content inside of any defined borders. CSS has properties for specifying the padding for each side of an element: padding-top, padding-right, padding-bottom, padding-left. Negative values are not allowed.
+ * 3. border: a border that goes around the padding and content
+ * 4. margin: Margins are used to create space around elements outside of any defined borders. margin-top, margin-right, margin-bottom, margin-left. Sometimes two margins collapse into a single margin.
+ * imp: margin:auto; //horizontally center the element within its container
  * 
+ * imp: when we set the width and height of an element , we just set the width and height of the content area. To calculate total width and height of an element, we must include the border, padding and margin.
+ * 
+ * suppose, the width of an element is 320 px and height is 50 px. The padding is 10 px, border is 5px and margin is 10px.
+ * so, the width is - 320 + 10(left padding) + 5(left border)+ 10(left margin) 
+ *                      + 10(right padding) + 5(right border) + 10(right margin)
+ *                  - 370 px.
+ * and the height is - 50 + 20(top and bottom padding) + 10(top and bottom 
+ *                      border) + 20(top and bottom margin)
+ *                   - 100px.
  */
