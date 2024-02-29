@@ -87,7 +87,7 @@
  *          vii. inset       viii. outset
  *          ix. none         x. hidden
  * 
- * 02. border-width: specifies the width of the four borders. It can take specific size(px,pt,cm,em) or have pre-defined values: thin,medium, thick. It can have one to four values.
+ * 02. border-width: specifies the width of the four borders. It can take specific size(px,pt,cm,em) or have pre-defined values: thin(1px),medium(3px), thick(5px). It can have one to four values.
  * 
  * 3. border-color: is used to set the color of the four borders. Color names can be set by name,HEX,HSL,HSLA,RGB,RGBA,transparent. If border color is not set, it inherits the color of the element. It can have from one to four values.
  * 
@@ -136,4 +136,16 @@
  * and the height is - 50 + 20(top and bottom padding) + 10(top and bottom 
  *                      border) + 20(top and bottom margin)
  *                   - 100px.
+ */
+
+//topic_10: CSS Text and Fonts
+/**
+ * ALIGNMENT
+ * 1. color: is used to set the color of the text.
+ * 2. text-align: is used to set horizontal alignment of a text. left, right, center,justify(each line is stretched so that every line has equal width, and the left and right margins are straight.)
+ * 3. text-align-last: specifies how to align the last line of the text.
+ * 4. vertical-align: sets the vertical alignment of an element. baseline, text-top, text-bottom, sub, super.
+ * 5. direction: sets the text direction. rtl(right to left), ltr(left to right), initial, inherit.
+ * 
+ * 
  */
