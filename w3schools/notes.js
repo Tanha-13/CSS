@@ -164,6 +164,32 @@
  * 9. white-space: specifies how white-space inside an element is handled. 
  * 10. text-shadow: adds shadow to text. 
  *
+ * FONTS
+ *  - serif: have small stroke at the edges of each letter.
+ *      i. times new roman
+ *      ii. georgia
+ *      iii. garamond
+ *  - Sans-serif: clean lines.
+ *      i. arial
+ *      ii. verdana
+ *      iii. helvetica
+ *      iv. tahoma
+ *      v. trebuchet MS
+ *  - monospace: all the letters have the same width.
+ *      i. courier new
+ *      ii. lucida console
+ *      iii. monaco
+ *  - cursive: imitate human handwriting.
+ *      i. brush script MT
+ *      ii. lucida handwriting
+ *  - fantasy: decorative/playful fonts.
+ *      i. copperplate
+ *      ii. papyrus
  * 
- * 
+ * 1. font-family: is used define the font of a text.
+ * imp: the font-family property should hold several font names as a fallback system, to ensure maximum compatibility between browsers and operating systems.Start with the font you want, and end with a generic family (to let the browser pick a similar font in the generic family, if no other fonts are available). 
+ * 2. font-style: is used to specify italic text. normal, italic, oblique(similar to italic, but less supported).
+ * 3. font-weight: specifies the weight of a font. normal,bold.
+ * 4. font-variant
+ * 5.font-size: sets the size of a text. default size is 16px(1em). pixels to em is pixels/16 = em. The text size can be set with a vw(viewport width) unit.It will follow the size of the browser window.
  */
