@@ -136,6 +136,12 @@
  * and the height is - 50 + 20(top and bottom padding) + 10(top and bottom 
  *                      border) + 20(top and bottom margin)
  *                   - 100px.
+ * 
+ * box-sizing - property allows to include the padding and border in an element's total width and height. defines how the width and height of an element are calculated.
+ *      width + padding + border = actual width of an element
+ *      height + padding + border = actual height of an element
+ * i. box-sizing:border-box; includes padding and border in the width and height
+ * ii. content-box: default. The width and height properties only include the content. 
  */
 
 //topic_10: CSS Text and Fonts
