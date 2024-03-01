@@ -193,3 +193,14 @@
  * 4. font-variant
  * 5.font-size: sets the size of a text. default size is 16px(1em). pixels to em is pixels/16 = em. The text size can be set with a vw(viewport width) unit.It will follow the size of the browser window.
  */
+
+// topic_11: CSS Display
+/**
+ * Display property is used to specify how an element is shown on a web page. is used to change the default behavior of HTML elements.
+ * Block elements start on a new line and takes up the full width available. On the other hand, inline elements do not start on a new line and only takes up as much width as possible.
+ * todo: block vs inline vs inline-block
+ * i.inline     ii. block       iii.contents
+ * iv.flex      v. grid         vi. inline-block
+ * vii. inline-flex             viii. inline-grid    
+ * ix. table        
+ */
