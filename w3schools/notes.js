@@ -210,3 +210,19 @@
  * vii. inline-flex             viii. inline-grid    
  * ix. table        
  */
+
+//topic_12: Position
+/**
+ * Position property specifies the type of positioning method used for an element.
+ * 01. static: by default. This elements are not affected by the top,bottom, left, and right properties. It is always positioned according to the normal flow of the page.
+ * 
+ * 02. relative: is positioned relative to its normal position. Setting the top,right,bottom,and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
+ * 
+ * 03. fixed: is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top,right,bottom,left properties are used to position the element. A fixed element does not leave a gap in the page where it would normally have been located.
+ * 
+ * 04. absolute: is positioned relative to the nearest positioned ancestor. If an absolute positioned element has no positioned ancestors , it uses the document body, and moves along with page scrolling. These elements are removed from the normal flow, and can overlap elements.
+ * 
+ * 05. sticky: is positioned based on the user's scroll position. A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset is met in the viewport, then it 'sticks' in place like position:fixed.
+ * 
+ * imp: sticky position is not supported by internet explorer. Safari requires a -webkit-prefix. You must specify at least one of offset value for sticky positioning to work.
+ */
